@@ -1,0 +1,11 @@
+.main {
+  border: 2px solid var(--borderColor);
+  width: 100%;
+  max-width: 75vw;
+  margin: 20px auto;
+  border-radius: 10px;
+  text-align: left;
+  position: relative;
+  box-shadow: 0 0 20px 5px rgba(255, 255, 255, 0.4);
+  transition: border-color 0.3s ease, box-shadow 0.3s ease;
+}
