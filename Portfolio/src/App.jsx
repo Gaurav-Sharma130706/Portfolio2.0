@@ -1,5 +1,6 @@
 import Container from "./components/Container/Container"
 import Navbar from "./components/Navbar/Navbar"
+import Footer from "./components/Footer/Footer"
 import { useContext, useState, useEffect } from "react"
 import { ThemeContext,ThemeProvider } from "./contexts/theme"
 
@@ -33,7 +34,9 @@ function App() {
       <div>
       <Container>
         <Navbar/>
+        <Footer/>
       </Container>
+      
       </div>
     </ThemeProvider>
    
