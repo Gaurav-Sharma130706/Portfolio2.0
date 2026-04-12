@@ -30,6 +30,9 @@ body{
   background-color: white;
   color: black;
   --secondaryColor: rgb(0, 0, 0);
+  --cardBackground: hsl(0, 0%, 95%);
+  --borderColor: hsl(0, 0%, 70%);
+  --primaryColor: rgb(254, 50, 67);
 }
 
 h1 {

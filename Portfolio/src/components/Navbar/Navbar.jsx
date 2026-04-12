@@ -1,7 +1,8 @@
 import React from 'react'
-import {useTheme} from '../../contexts/theme.js'
+import { useTheme } from '../../contexts/theme.js'
 import githubLogo from '../../assets/2993771_github_social media_icon.svg'
 import linkedinLogo from '../../assets/5296501_linkedin_network_linkedin logo_icon.svg'
+
 
 
 function Navbar() {
@@ -10,10 +11,10 @@ function Navbar() {
   return (
     <>
       <div className="flex w-full justify-between items-center flex-wrap py-4.5 px-6.25">
-        
+
         {/* Left */}
         <div className="flex items-center gap-6.25">
-          
+
           <div className="text-(--primaryColor) flex items-center">
             <span className="material-symbols-outlined text-[40px]! ">Person</span>
           </div>
@@ -37,7 +38,7 @@ function Navbar() {
 
         {/* Right */}
         <div className="flex items-center gap-7.5">
-          
+
           <div className="flex gap-6.25 items-center">
             <a href="" className="text-(--textColor) no-underline text-[16px] font-medium transition-all duration-300 hover:text-(--primaryColor) hover:-translate-y-0.5 relative group">
               Contact Me
@@ -49,19 +50,21 @@ function Navbar() {
             </a>
           </div>
 
-         <div className="flex gap-3.75 items-center">
-  <a href="https://github.com/Gaurav-Sharma130706" target="_blank" className="transition-transform duration-300 hover:scale-110">
-    <img src={githubLogo} alt="Github" className="h-5" />
-  </a>
-  <a href="https://www.linkedin.com/in/gaurav-sharma-0a6a65323/" target="_blank" className="transition-transform duration-300 hover:scale-110">
-    <img src={linkedinLogo} alt="LinkedIn" className="h-5" />
-  </a>
-</div>
+          <div className="flex gap-3.75 items-center">
+            <a href="https://github.com/Gaurav-Sharma130706" target="_blank" className="transition-transform duration-300 hover:scale-110">
+              <img src={githubLogo} alt="Github" className="h-5" />
+            </a>
+            <a href="https://www.linkedin.com/in/gaurav-sharma-0a6a65323/" target="_blank" className="transition-transform duration-300 hover:scale-110">
+              <img src={linkedinLogo} alt="LinkedIn" className="h-5" />
+            </a>
+          </div>
 
         </div>
       </div>
 
-      
+      <div className="w-full h-0.5 bg-(--borderColor)" />
+
+
     </>
   )
 }

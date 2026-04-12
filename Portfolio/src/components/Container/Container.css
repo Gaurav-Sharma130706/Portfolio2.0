@@ -1,7 +1,7 @@
 .main {
   border: 2px solid var(--borderColor);
   width: 100%;
-  max-width: 75vw;
+  max-width: 90vw;
   margin: 20px auto;
   border-radius: 10px;
   text-align: left;
