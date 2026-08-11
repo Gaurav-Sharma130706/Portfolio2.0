@@ -21,6 +21,8 @@ body{
     --cardBackground: hsl(0, 0%, 8%);
     --borderColor: hsl(0, 0%, 30%);
     --linkHover: hsl(0, 0%, 70%);
+    --tagText: rgb(255, 255, 255);
+    --tagBorder: rgb(255, 255, 255);
 }
 
 
@@ -33,6 +35,8 @@ body{
   --cardBackground: hsl(0, 0%, 95%);
   --borderColor: hsl(0, 0%, 70%);
   --primaryColor: rgb(254, 50, 67);
+  --tagText: rgb(255, 71, 87);
+  --tagBorder: rgb(255, 71, 87);
 }
 
 h1 {
