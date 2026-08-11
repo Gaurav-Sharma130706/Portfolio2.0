@@ -11,14 +11,14 @@ function Home() {
         gridTemplateAreas: `
           "about aside"
           "skills aside"
-          "projects aside"
+          "projects projects"
         `
       }}
     >
       <div style={{ gridArea: 'about' }}><About /></div>
       <div style={{ gridArea: 'skills' }}><Skills /></div>
       <div style={{ gridArea: 'projects' }}><Projects /></div>
-      <div style={{ gridArea: 'aside' }}><Aside /></div>
+      <div style={{ gridArea: 'aside', alignSelf: 'stretch'  }}><Aside /></div>
     </div>
   )
 }

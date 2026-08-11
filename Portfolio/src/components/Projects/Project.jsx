@@ -6,7 +6,7 @@ import ProjectCard from './ProjectCard'
 function Project() {
   return (
     
-    <div className="bg-(--cardBackground) rounded-[20px] border-2 border-(--borderColor) p-0.75! w-[95%]">
+    <div className="bg-(--cardBackground) rounded-[20px] border-2 border-(--borderColor) p-0.75! w-[100%]">
         <h1 className='font-bold mb-5!'>Projects</h1>
         {projects.map((project)=>(
             <ProjectCard key={project.id} project={project}/>

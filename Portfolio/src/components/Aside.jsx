@@ -3,7 +3,7 @@ import profileImage from '../assets/IMG_3330.webp'
 
 function Aside() {
   return (
-    <div className="w-full flex flex-col items-center bg-(--cardBackground) rounded-[20px] pb-0.75 border-2 border-(--borderColor) transition-all duration-300 sticky top-5">
+    <div className="w-full h-full flex flex-col items-center bg-(--cardBackground) rounded-[20px] pb-0.75 border-2 border-(--borderColor) transition-all duration-300  top-5">
       
       <img 
         src={profileImage} 
