@@ -29,10 +29,10 @@ body{
 
 .light body,
 .light {
-  background-color: white;
+  background-color: hsl(0, 20%, 96%);
   color: black;
   --secondaryColor: rgb(0, 0, 0);
-  --cardBackground: hsl(0, 0%, 95%);
+  --cardBackground: hsl(0, 10%, 95%);
   --borderColor: hsl(0, 0%, 70%);
   --primaryColor: rgb(254, 50, 67);
   --tagText: rgb(255, 71, 87);
